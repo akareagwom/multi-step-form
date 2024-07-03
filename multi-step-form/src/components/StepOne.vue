@@ -1,5 +1,5 @@
 <template>
-<div class='bg-white w-[70%] absolute top-[15%] left-[10%] shadow rounded-[10px]'>
+<div class='bg-white w-[90%] absolute top-[15%] left-[5%] shadow rounded-[10px]'>
     <h1>Personal info</h1>
     <p>Please provide your name, email address, and phone number</p>
     <form class="flex flex-col">
