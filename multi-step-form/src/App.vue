@@ -1,25 +1,17 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import StepOne from './components/StepOne.vue';
 </script>
 
 <template>
   <div>
-  
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld class="w-full main" />
+  <StepOne class="w-full main" />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.main{
+  padding-left:0;
 }
 </style>
